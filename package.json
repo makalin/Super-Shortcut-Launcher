@@ -1,0 +1,30 @@
+{
+  "name": "super-shortcut-launcher",
+  "version": "1.0.0",
+  "description": "A cross-platform shortcut launcher for quick access to files and applications",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "dependencies": {
+    "electron-store": "^8.1.0",
+    "electron-context-menu": "^3.6.1"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.1"
+  },
+  "build": {
+    "appId": "com.shortcutlauncher.app",
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "target": "nsis"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  }
+}
