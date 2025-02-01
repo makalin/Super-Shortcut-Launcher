@@ -25,8 +25,8 @@ A cross-platform desktop application built with Electron that provides quick acc
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/super-shortcut-launcher.git
-cd super-shortcut-launcher
+git clone https://github.com/makalin/Super-Shortcut-Launcher.git
+cd Super-Shortcut-Launcher
 ```
 
 2. Install dependencies:
